@@ -35,13 +35,15 @@ public class SmartDevice {
 
     // 2. Constructor with deviceName
     SmartDevice(String deviceName) {
-        this(); // constructor chaining
+        this();// constructor chaining
         this.deviceName = deviceName;
     }
 
     // 3. Constructor with deviceName and os
     SmartDevice(String deviceName, String os) {
-        this(deviceName);
+        
+    
+        this.deviceName=deviceName;
         this.os = os;
     }
 

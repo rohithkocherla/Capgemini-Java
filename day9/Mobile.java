@@ -17,23 +17,22 @@ public class Mobile {
     String brand;
     int storage;
     boolean is5G;
-}
-Mobile(){
-        this.brand = "Unknown";
-        this.storage = 64;
-        this.is5G = false;
-    }
-Mobile(String brand, int storage, boolean is5G) {
-        this();              // constructor chaining
+
+    Mobile(String brand, int storage, boolean is5G) {
+           // parametarized constructor chaining
         this.brand = brand;
         this.storage = storage;
         this.is5G = is5G;
     }
+  Mobile(){                                              //default constructor
+        this("hffj",65,false);
+    }
+ 
 void display() {
         System.out.println("Brand: " + brand);
         System.out.println("Storage: " + storage + " GB");
         System.out.println("5G Supported: " + is5G);
-        System.out.println("--------------------");
+       
     }
 
     public static void main(String[] args) {
@@ -43,3 +42,4 @@ void display() {
         m1.display();
         m2.display();
     }
+}

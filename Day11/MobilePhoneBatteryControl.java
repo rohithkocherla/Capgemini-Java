@@ -6,20 +6,17 @@ public class MobilePhoneBatteryControl {
        obj.use(30);
        
         obj.display();
-
-        
+   
     } 
-
-
 }
 
 class MobilePhone{
     private int b;
 
-    public MobilePhone(int b){
+public MobilePhone(int b){
         this.b=b;
     }
-     void charge(int amount){
+void charge(int amount){
         b=b+amount;
         
         

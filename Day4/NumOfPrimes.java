@@ -14,5 +14,5 @@ public class NumOfPrimes {
         System.out.println("prime");
        }
    
-     }
+      }}
      

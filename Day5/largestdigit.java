@@ -12,7 +12,7 @@ public class largestdigit {
                 largest=last;
             }
 
-            n=n/10;//7845
+            n=n/10;//784
             
         }
         System.out.println(largest);

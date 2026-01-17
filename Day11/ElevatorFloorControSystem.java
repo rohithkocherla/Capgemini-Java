@@ -6,7 +6,6 @@ public class ElevatorFloorControSystem {
         e.moveUp();
         
         e.moveDown();
-
         e.displayFloor();
 
     }

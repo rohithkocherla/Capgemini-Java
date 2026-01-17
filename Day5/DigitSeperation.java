@@ -10,7 +10,7 @@ public class DigitSeperation {
         while (n>0){
             int last = n % 10;
             
-          System.out.println(last + " ");
+           System.out.println(last + " ");
             n = n / 10;  
 
         }

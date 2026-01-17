@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class calculateProductUsingMethod {
     public static int calculateProd(int a,int b,int c){
-        
+    
         return a*b*c;
 
     }
