@@ -10,6 +10,14 @@ public class program1 {
             al.add(i);
         }
         System.out.println(al);
+        Iterator<Integer> itr=al.iterator();
+        while(itr.hasNext()){
+            itr.next();
+            itr.remove();
+
+            System.out.println(al);
+        }
+
 
     }
 }
