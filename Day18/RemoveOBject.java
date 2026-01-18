@@ -5,7 +5,7 @@ public class RemoveOBject{
         
 
     int[] a={10,21,23,25,26};
-    List<Integer> al=new ArrayList<Integer>();
+    List<Integer> al=new ArrayList<>();
     for(int i : a) {
         al.add(i);
     } 
