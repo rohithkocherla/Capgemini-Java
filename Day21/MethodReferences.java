@@ -17,9 +17,11 @@ public class MethodReferences {
     List<String> names=Arrays.asList("kabir","Rohit","Promod");
     System.out.println(names);
 
-    System.out.println("Using lambda exp: ");
+    System.out.println("\nUsing lambda exp: ");
     names.forEach(name -> System.out.println(name));
-    System.out.println(names);
+    System.out.println("\n");
+    System.out.println("Using method ref:");
     names.forEach(System.out::println);
+
 }
 }
