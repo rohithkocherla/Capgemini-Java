@@ -1,4 +1,4 @@
-public class reex8 {
+public class regex8 {
     public static void main(String[] args) {
         System.out.println("123".matches("\\d+")); 
 		System.out.println("9".matches("\\d+"));   
